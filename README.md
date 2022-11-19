@@ -56,7 +56,7 @@ jobs:
 
       - name: Upload Release Asset
         id: upload-release-asset 
-        uses: basefas/upload-release-asset@v1
+        uses: basefas/upload-release-asset-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
